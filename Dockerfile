@@ -1,7 +1,7 @@
 FROM openjdk
 WORKDIR /app
 COPY . /app
-RUN ProgettoApplication.java
+RUN javac ProgettoApplication.java
 CMD ["java", "ProgettoApplication"]  
 
  
